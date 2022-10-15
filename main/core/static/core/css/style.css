@@ -1,0 +1,64 @@
+body {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background: rgb(2, 4, 36);
+	justify-content: center;
+}
+
+.header {
+	width: fit-content;
+	padding: 0.7rem;
+	border-end-end-radius: 10px;
+	background: salmon;
+	color: white;
+	/* font-weight: 500; */
+	position: absolute;
+	top: 0;
+	z-index: -1;
+}
+
+.csm {
+	background: salmon;
+	color: white;
+	font-weight: 500;
+    font-size: 2.5vmin;
+}
+
+.quote {
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.topsect {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+}
+
+.lorem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.containing {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5em;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+@media (min-width: 614px) {
+    .container-sm{
+        font-size: 2.54vmin;
+    }
+}
